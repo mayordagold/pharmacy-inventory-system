@@ -1,3 +1,4 @@
+![Release](https://img.shields.io/github/v/release/mayordagold/pharmacy-inventory-system?label=latest&style=flat-square)
 # 💊 Pharmacy Inventory System (Offline Desktop App)
 
 Originally developed for ONYXCARE Pharmacy, this desktop application is a secure and efficient solution for managing pharmaceutical, Stores, and supermarket inventory and sales without needing an internet connection.
