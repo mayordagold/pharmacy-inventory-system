@@ -84,7 +84,7 @@ def launch_dashboard(username="admin", role="admin"):
     if role == "admin":
         tk.Button(button_frame, text="📦 Add Product", command=lambda: show_add_product_window(username), **button_style).pack(pady=3)
         tk.Button(button_frame, text="📊 Analytics", command=show_analytics_window, **button_style).pack(pady=3)
-        tk.Button(button_frame, text="📥 Record Restock", command=lambda: show_restock_window(username, role), **button_style).pack(pady=3)
+        tk.Button(button_frame, text="📥 Product Restock", command=lambda: show_restock_window(username, role), **button_style).pack(pady=3)
         tk.Button(button_frame, text="👤 Create Sales User", command=show_create_user_window, **button_style).pack(pady=3)
         tk.Button(button_frame, text="📤 Export Inventory", command=lambda: export_inventory(username, role), **button_style).pack(pady=3)
         tk.Button(button_frame, text="📜 View Activity Log", command=show_activity_log_window, **button_style).pack(pady=3)

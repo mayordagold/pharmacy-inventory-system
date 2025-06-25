@@ -18,8 +18,8 @@ def setup_database():
             product_id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,
             category TEXT,
-            quantity_in_stock INTEGER,
-            price REAL,
+            quantity_in_stock INTEGER DEFAULT 0,
+            price REAL DEFAULT 0.0,
             expiry_date TEXT,
             supplier_name TEXT
         );
