@@ -3,7 +3,7 @@ from tkinter import messagebox
 import sqlite3
 from gui_utils import add_footer  # ✅ Reusable footer
 
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 def search_products(entry, result_list):
     keyword = entry.get().strip()

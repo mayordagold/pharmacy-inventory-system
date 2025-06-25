@@ -4,7 +4,7 @@ from collections import defaultdict
 from datetime import datetime
 import matplotlib.pyplot as plt  # type: ignore
 
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 def export_all_charts():
     # Step 1: Create export folder

@@ -3,7 +3,7 @@ import hashlib
 from datetime import datetime
 
 # === Database Path ===
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 # === Hash Utility ===
 def hash_password(password):

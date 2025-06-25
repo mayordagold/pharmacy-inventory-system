@@ -8,7 +8,7 @@ from gui_dashboard import launch_dashboard
 import app  # ✅ Import app to use log_user_action
 from gui_utils import add_footer  # ✅ Import reusable footer
 
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()

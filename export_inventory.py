@@ -8,7 +8,7 @@ import app
 db_path = app.db_path
 
 # Default export location
-export_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory_export.csv"
+export_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory_export.csv"
 
 def export_inventory(username, role):
     if role != "admin":

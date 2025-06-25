@@ -4,7 +4,7 @@ import sqlite3
 from datetime import datetime
 from gui_utils import add_footer  # ✅ Reusable footer
 
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 def submit_restock(fields, username):
     name = fields["Product Name"].get().strip().lower()

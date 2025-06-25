@@ -4,7 +4,7 @@ import sqlite3
 from gui_utils import add_footer  # ✅ Reusable footer
 
 # Path to your inventory database
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 def submit_product(entries):
     name = entries["Name"].get().strip()

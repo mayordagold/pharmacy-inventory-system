@@ -7,7 +7,7 @@ from datetime import datetime
 from tkinter import filedialog, simpledialog
 from gui_utils import add_footer  # ✅ Reusable footer
 
-db_path = "C:/Users/USER/OneDrive/Desktop/chemist-inventory/inventory.db"
+db_path = "C:/Users/USER/OneDrive/Desktop/pharmacy-inventory-system/inventory.db"
 
 def show_analytics_window():
     win = tk.Toplevel()
